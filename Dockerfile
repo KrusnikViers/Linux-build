@@ -18,5 +18,6 @@ RUN apt-get update -y && \
         libudev-dev \
         libxcb-image0-dev \
         libjpeg-dev \
-        libflac-dev && \
+        libflac-dev \
+        xvfb && \
     apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
