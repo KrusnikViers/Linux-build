@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:22.04
 
 # Install basic dependencies and clear all post-installation temporary files.
 RUN apt-get update -y && \
