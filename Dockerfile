@@ -6,19 +6,19 @@ RUN apt-get update -y && \
         build-essential \
         cmake \
         file \
-        libpthread-stubs0-dev \
-        libgl1-mesa-dev \
-        libx11-dev \
-        libxrandr-dev \
-        libfreetype6-dev \
-        libglew-dev \
-        libjpeg8-dev \
-        libsndfile1-dev \
-        libopenal-dev \
-        libudev-dev \
-        libxcb-image0-dev \
-        libjpeg-dev \
         libflac-dev \
+        libfreetype6-dev \
+        libgl1-mesa-dev \
+        libglew-dev \
+        libjpeg-dev \
+        libjpeg8-dev \
+        libopenal-dev \
+        libpthread-stubs0-dev \
+        libsndfile1-dev \
+        libudev-dev \
+        libx11-dev \
+        libxcb-image0-dev \
         libxcursor-dev \
+        libxrandr-dev \
         xvfb && \
     apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
