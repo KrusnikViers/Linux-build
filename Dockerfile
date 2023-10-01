@@ -19,5 +19,6 @@ RUN apt-get update -y && \
         libxcb-image0-dev \
         libjpeg-dev \
         libflac-dev \
+        libxcursor-dev \
         xvfb && \
     apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
