@@ -14,6 +14,7 @@ RUN apt-get update -y && \
         libjpeg8-dev \
         libopenal-dev \
         libpthread-stubs0-dev \
+        libsdl2-dev \
         libsndfile1-dev \
         libudev-dev \
         libx11-dev \
